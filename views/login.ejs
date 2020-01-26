@@ -1,0 +1,19 @@
+<!-- LOG IN PAGE IF YOU FORGET CHECK THE FILE NAME -->
+
+<%- include("partials/header") %>
+
+<div class="login-container">
+    <h1 id="login-title">Inloggen</h1>
+    <form  action="/login" method="POST">
+        
+        <input type="text" name="username" placeholder="Naam"><br>
+        <input type="password" name="password" placeholder="Wachtwoord"><br>
+        <button id="loginBtn">Inloggen</button>
+    </form>
+    <a href="/signup">
+    <button id="signupBtn" >aanmelden</button></a>
+</div>
+<!-- CUSTOM SHAPES -->
+<svg id="blob-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 274"><defs></defs><title>blob</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M110,0h-6l-.81.77c-.14-.26-.29-.51-.44-.77H7.23a55.77,55.77,0,0,0,26.1,78.52A223.57,223.57,0,0,1,137.18,225a61,61,0,0,0,86.64,42.82,191.91,191.91,0,0,1,158.74-3.48,32.6,32.6,0,0,0,25.44.19V0Z"/></g></g></svg>
+<svg id="blob-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 274"><defs></defs><title>blob</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M110,0h-6l-.81.77c-.14-.26-.29-.51-.44-.77H7.23a55.77,55.77,0,0,0,26.1,78.52A223.57,223.57,0,0,1,137.18,225a61,61,0,0,0,86.64,42.82,191.91,191.91,0,0,1,158.74-3.48,32.6,32.6,0,0,0,25.44.19V0Z"/></g></g></svg>
+<%- include("partials/footer") %>
